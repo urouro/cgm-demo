@@ -2,6 +2,19 @@
   "private": true,
   "devDependencies": {
     "gulp": "^3.8.8",
-    "laravel-elixir": "*"
-  }
+    "laravel-elixir": "*",
+    "basscss": "~6.0.2"
+  },
+  "name": "cgm-demo",
+  "description": "CGM Demo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kenta.nakai <kenta.nakai@urouro.net>",
+  "license": "Custom"
 }

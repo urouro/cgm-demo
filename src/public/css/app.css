@@ -1,0 +1,11 @@
+.login {
+  text-align: center; }
+  .login form {
+    width: 50%;
+    max-width: 500px;
+    margin: 100px auto 0 auto; }
+    .login form .input {
+      width: 100%;
+      margin: 2px 6px 16px 0; }
+
+/*# sourceMappingURL=app.css.map */
