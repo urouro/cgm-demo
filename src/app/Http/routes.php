@@ -3,5 +3,10 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
-    Route::get('login', 'LoginController@index');
+    Route::controllers([
+        'auth' => 'AuthController',
+        //'password' => 'PasswordController',
+    ]);
+
+    Route::get('top', 'TopController@index');
 });
